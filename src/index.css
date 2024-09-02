@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* main section ul li a{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  padding-left: 35px;
+  padding-block: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  list-style: none;
+}
+main section ul li div{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+section ul li a p{
+  text-transform: capitalize;
+  color: white;
+  font-size: 16px;
+} */
+ul li .link,  ul li span{
+  width: 100%;
+  padding-block: 20px;
+  cursor: pointer;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  font-family: var(--IBM-Plex);
+  text-transform: capitalize;
+  color: white;
+}
+ul .submenu,
+ul .subMenu {
+  padding-left: 25px;
+  line-height: 25px;
+  display: none;
+}
+ul .subMenu.show {
+  display: block;
+}
+ul .submenu.show {
+  display: block;
+}
+
+.left-sidebar .ulist .iilist span p:hover {
+  background-color: rgba(234, 234, 234, 0.3);
+}

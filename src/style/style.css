@@ -1,0 +1,10 @@
+td {
+  padding-block: 7px;
+  padding-inline: 20px;
+  border: none;
+}
+th {
+  padding-block: 5px;
+  padding-inline: 20px;
+  border: none;
+}
